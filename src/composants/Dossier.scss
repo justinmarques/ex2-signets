@@ -1,0 +1,30 @@
+.Dossier {
+    height: auto;
+    padding-bottom: 10px;
+
+    .couverture {
+
+        .deplacer {
+            position: relative;
+            left: 20px;
+            top: 20px;
+        }
+
+        img {
+            width: 100%;
+            object-fit: fill;
+        }
+    }
+
+    .info{
+        padding: 20px 0 25px 15px;
+
+        h2{
+            margin: 0;
+        }
+        p{
+            padding-top: 15px;
+            margin: 0;
+        }
+    }
+}

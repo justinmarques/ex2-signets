@@ -1,0 +1,27 @@
+.Entete{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 7px 0 7px 0;
+    font-size: 1.2em;
+
+    .logo{
+        margin-left: 30px;
+    }
+    
+    .avatar{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 30px;
+
+        .iconAvatar{
+            margin-left: 20px;
+            height: 100%;
+            width: 2vw;
+        }
+    }
+}
