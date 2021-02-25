@@ -1,13 +1,21 @@
 .Dossier {
     height: auto;
-    padding-bottom: 10px;
 
     .couverture {
 
         .deplacer {
             position: relative;
-            left: 20px;
-            top: 20px;
+            left: 10px;
+            top: 45px;
+            background-color: black;
+            opacity: .5;
+            display: flex;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
         }
 
         img {
@@ -17,14 +25,26 @@
     }
 
     .info{
-        padding: 20px 0 25px 15px;
+        padding: 20px 15px 25px 15px;
+        display: flex;
+        flex-flow: column nowrap;
+        color: white;
 
         h2{
             margin: 0;
         }
+
         p{
             padding-top: 15px;
             margin: 0;
         }
+
+        .BtnMore{
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            align-self: flex-end;
+        }
     }
+
 }
